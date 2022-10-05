@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="http://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+	<script type="text/javascript" src="js/main.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+</head>
+<body>
+ <div id="pagina-container">
+	<header>
+		<h1>Calculadora com Javascript</h1>
+	</header>
+		<div class="calculadora">
+			<div class="tela"><p id="resultado"></p></div>
+			<table>
+				<tr>
+					<td><button class="apagar" onclick="limparTudo()">AC</button></td>
+					<td><button class="apagar" onclick="apagar()">CE</button></td>
+					<td><button onclick="inserir('/')">÷</button></td>
+					<td><button onclick="inserir('*')">x</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="inserir('7')">7</button></td>
+					<td><button onclick="inserir('8')">8</button></td>
+					<td><button onclick="inserir('9')">9</button></td>
+					<td><button onclick="inserir('-')">-</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="inserir('4')">4</button></td>
+					<td><button onclick="inserir('5')">5</button></td>
+					<td><button onclick="inserir('6')">6</button></td>
+					<td><button onclick="inserir('+')">+</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="inserir('1')">1</button></td>
+					<td><button onclick="inserir('2')">2</button></td>
+					<td><button onclick="inserir('3')">3</button></td>
+					<td rowspan="2"><button style="height: 86px;" onclick="calcular()">=</button></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button style="width: 106px;" onclick="inserir('0')">0</button></td>
+					<td><button onclick="inserir('.')">.</button></td>
+				</tr>
+				</table>
+			</div>
+	<footer>
+		<p>Desenvolvido por Alysson Oliveira</p>
+	</footer>
+	</div>
+
+</body>
+</html>
