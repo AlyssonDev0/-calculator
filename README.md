@@ -1,2 +1,3 @@
-# calculadora
- Calculadora simples utilizando apenas Html, Css e JavaScript
+# calculator
+
+A simple calculator using HTML, CSS and JavaScript.
